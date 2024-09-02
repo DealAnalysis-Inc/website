@@ -85,6 +85,7 @@
   min-height: 426px;
   background-image: url("images/DALLE2024-05-1819.31.47-Createahigh-qualityimageofastockmarkettradingscreeninawideaspectratio.Thescreenshoulddisplayvariouscolorfulnumbersandstatistics.webp");
   background-position: 50% 50%;
+  --bottom-right-radius: 20px;
 }
 
 .u-section-3 .u-container-layout-2 {
