@@ -109,8 +109,8 @@
 .u-section-2 .u-social-icons-1 {
   height: 48px;
   min-height: 16px;
-  width: 106px;
-  min-width: 42px;
+  width: 222px;
+  min-width: 94px;
   margin: 30px auto 60px;
 }
 
@@ -119,6 +119,14 @@
 }
 
 .u-section-2 .u-icon-2 {
+  height: 100%;
+}
+
+.u-section-2 .u-icon-3 {
+  height: 100%;
+}
+
+.u-section-2 .u-icon-4 {
   height: 100%;
 }
 
