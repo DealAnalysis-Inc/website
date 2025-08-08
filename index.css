@@ -1298,6 +1298,7 @@
 .u-section-5 .u-text-1 {
   font-family: "Plus Jakarta Sans";
   font-size: 2.25rem;
+  font-weight: 700;
   margin: 96px 0 0;
 }
 
@@ -1562,7 +1563,6 @@
   }
 
   .u-section-5 .u-text-1 {
-    font-weight: 900;
     margin-left: 265px;
   }
 
