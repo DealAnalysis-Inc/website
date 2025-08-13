@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(37,85,39,0.3), rgba(37,85,39,0.3)), url('images/photo-1454165804606-c3d57bc86b40.jpeg');
+  background-image: linear-gradient(0deg, rgba(37,85,39,0.3), rgba(37,85,39,0.3)) 50% 50%;
   background-position: 50% 50%;
 }
 
@@ -46,7 +46,6 @@
     margin-bottom: 35px;
   }
 } .u-section-2 {
-  background-image: url("images/Background-green-small.png");
   background-position: 50% 50%;
 }
 
@@ -123,7 +122,6 @@
 
 .u-section-3 .u-image-1 {
   min-height: 442px;
-  background-image: url("images/DALLE2024-05-1819.31.47-Createahigh-qualityimageofastockmarkettradingscreeninawideaspectratio.Thescreenshoulddisplayvariouscolorfulnumbersandstatistics.webp");
   background-position: 50% 50%;
 }
 
@@ -189,6 +187,10 @@
 
   .u-section-3 .u-image-1 {
     min-height: 279px;
+  }
+
+  .u-section-3 .u-container-layout-2 {
+    padding: 0;
   }
 
   .u-section-3 .u-image-2 {
@@ -293,7 +295,6 @@
 
 .u-section-4 .u-image-2 {
   min-height: 426px;
-  background-image: url("images/DALLE2024-05-1916.07.29-Ahigh-qualityphotographicimageofabusinessmeetinginaprofessionalofficesetting.Thefocusisonmultiplemalehandsholdingatabletdisplay.webp");
   background-position: 50% 50%;
 }
 
@@ -388,6 +389,10 @@
 
   .u-section-4 .u-layout-cell-2 {
     min-height: 100px;
+  }
+
+  .u-section-4 .u-container-layout-2 {
+    padding: 0;
   }
 
   .u-section-4 .u-text-2 {
@@ -534,7 +539,6 @@
 
 .u-section-5 .u-image-2 {
   min-height: 426px;
-  background-image: url("images/DALLE2024-05-1916.30.37-Ahigh-qualityphotographicimageofabusinessmeetinginaprofessionalofficesetting.Thescenefocusesontwobusinessmenshakinghandsacrossa.webp");
   background-position: 50% 50%;
 }
 
@@ -578,6 +582,11 @@
 
   .u-section-5 .u-image-2 {
     min-height: 269px;
+  }
+
+  .u-section-5 .u-container-layout-2 {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -666,7 +675,6 @@
 
 .u-section-6 .u-image-2 {
   min-height: 426px;
-  background-image: url("images/image-2.png");
   background-position: 50% 50%;
 }
 
@@ -748,8 +756,17 @@
     min-height: 269px;
   }
 
+  .u-section-6 .u-container-layout-1 {
+    padding: 0;
+  }
+
   .u-section-6 .u-layout-cell-2 {
     min-height: 100px;
+  }
+
+  .u-section-6 .u-container-layout-2 {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .u-section-6 .u-text-2 {
@@ -880,7 +897,6 @@
 
 .u-section-7 .u-image-2 {
   min-height: 426px;
-  background-image: url("images/DALLE2024-05-1916.55.06-Ahigh-qualityphotographicimagedepictingabusinessscenarioplanningmeeting.Thesceneincludesadiversegroupofprofessionalsinamodernoffi.webp");
   background-position: 50% 50%;
 }
 
@@ -1031,7 +1047,6 @@
 
 .u-section-8 .u-image-2 {
   min-height: 478px;
-  background-image: url("images/AI-Driven-Analytics-Has-Become-Mainstream.png");
   background-position: 50% 50%;
 }
 
@@ -1102,6 +1117,11 @@
 
   .u-section-8 .u-layout-cell-2 {
     min-height: 100px;
+  }
+
+  .u-section-8 .u-container-layout-2 {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -1223,7 +1243,6 @@
 
 .u-section-9 .u-image-2 {
   min-height: 431px;
-  background-image: url("images/gustavo-quepon-pF2lrjWiJE-unsplash.jpg");
   background-position: 50% 50%;
 }
 
@@ -1257,6 +1276,11 @@
 
   .u-section-9 .u-layout-cell-1 {
     min-height: 100px;
+  }
+
+  .u-section-9 .u-container-layout-1 {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .u-section-9 .u-text-2 {
@@ -1333,7 +1357,6 @@
     min-height: 257px;
   }
 } .u-section-10 {
-  background-image: url("images/Logo-grey-small.png");
   background-position: 50% 50%;
 }
 

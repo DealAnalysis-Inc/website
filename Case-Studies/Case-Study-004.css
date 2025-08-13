@@ -27,7 +27,6 @@
     font-size: 2.25rem;
   }
 } .u-section-2 {
-  background-image: url("../images/Screenshot2024-08-28at12.45.21.png");
   background-position: 50% 50%;
 }
 
@@ -202,7 +201,6 @@
     margin-bottom: 20px;
   }
 } .u-section-4 {
-  background-image: url("../images/Screenshot2024-08-28at12.45.21.png");
   background-position: 50% 50%;
 }
 
@@ -232,7 +230,6 @@
 .u-section-5 .u-text-2 {
   margin: 20px 0;
 } .u-section-6 {
-  background-image: url("../images/Screenshot2024-08-28at12.45.21.png");
   background-position: 50% 50%;
 }
 
@@ -261,7 +258,6 @@
 .u-section-7 .u-text-2 {
   margin: 0 0 20px;
 } .u-section-8 {
-  background-image: url("../images/Screenshot2024-08-28at12.45.21.png");
   background-position: 50% 50%;
 }
 
@@ -290,7 +286,6 @@
 .u-section-9 .u-text-2 {
   margin: 0 0 20px;
 } .u-section-10 {
-  background-image: url("../images/Screenshot2024-08-28at12.45.21.png");
   background-position: 50% 50%;
 }
 
@@ -323,7 +318,6 @@
 .u-section-11 .u-text-2 {
   margin: 20px 0;
 } .u-section-12 {
-  background-image: url("../images/Screenshot2024-08-28at12.45.21.png");
   background-position: 50% 50%;
 }
 
@@ -374,7 +368,6 @@
     margin-bottom: -26px;
   }
 } .u-section-14 {
-  background-image: url("../images/Screenshot2024-08-28at12.45.21.png");
   background-position: 50% 50%;
 }
 
@@ -424,14 +417,12 @@
 
   .u-section-14 .u-image-1 {
     margin-top: 20px;
-    margin-bottom: initial;
   }
 
   .u-section-14 .u-btn-1 {
     margin-top: 20px;
     margin-right: 642px;
     margin-left: 95px;
-    margin-bottom: initial;
   }
 
   .u-section-14 .u-btn-2 {
@@ -445,13 +436,8 @@
     min-height: 151px;
   }
 
-  .u-section-14 .u-image-1 {
-    margin-bottom: 0;
-  }
-
   .u-section-14 .u-btn-1 {
     margin-right: 517px;
-    margin-bottom: 0;
     margin-left: 0;
   }
 
@@ -474,7 +460,6 @@
     margin-top: 20px;
     margin-right: 98px;
     margin-left: 143px;
-    margin-bottom: initial;
   }
 }
 
@@ -495,7 +480,6 @@
   .u-section-14 .u-btn-2 {
     font-size: 1rem;
     margin-right: auto;
-    margin-bottom: 45px;
     margin-left: 0;
   }
 }
