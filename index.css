@@ -539,10 +539,6 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-2 .u-text-1 {
-    margin-top: 436px;
-  }
-
   .u-section-2 .u-list-1 {
     width: 940px;
   }
@@ -555,10 +551,6 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-2 .u-text-1 {
-    margin-top: 464px;
-  }
-
   .u-section-2 .u-list-1 {
     width: 720px;
   }
@@ -571,10 +563,6 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-2 .u-text-1 {
-    margin-top: 745px;
-  }
-
   .u-section-2 .u-list-1 {
     width: 540px;
   }
@@ -601,10 +589,6 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-2 .u-text-1 {
-    margin-top: 646px;
-  }
-
   .u-section-2 .u-list-1 {
     width: 340px;
   }
@@ -614,17 +598,45 @@
   }
 }
 
-.u-section-2 .u-list-item-3,
-.u-section-2 .u-list-item-3:before,
-.u-section-2 .u-list-item-3 > .u-container-layout:before {
+.u-section-2 .u-text-8:not([data-block-selected]):not([data-cell-selected]),
+.u-section-2 .u-text-8:not([data-block-selected]):not([data-cell-selected]):before,
+.u-section-2 .u-text-8:not([data-block-selected]):not([data-cell-selected]) > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
-.u-section-2 .u-list-item-3.u-list-item-3.u-list-item-3:hover {
+.u-section-2 .u-text-8.u-text-8.u-text-8:hover:not([data-block-selected]):not([data-cell-selected]) {
+  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2) !important;
+}
+
+.u-section-2 .u-text-8.u-text-8.u-text-8.hover {
+  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2) !important;
+}
+
+.u-section-2 .u-list-item-3:not([data-block-selected]):not([data-cell-selected]),
+.u-section-2 .u-list-item-3:not([data-block-selected]):not([data-cell-selected]):before,
+.u-section-2 .u-list-item-3:not([data-block-selected]):not([data-cell-selected]) > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-2 .u-list-item-3.u-list-item-3.u-list-item-3:hover:not([data-block-selected]):not([data-cell-selected]) {
   box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2) !important;
 }
 
 .u-section-2 .u-list-item-3.u-list-item-3.u-list-item-3.hover {
+  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2) !important;
+}
+
+.u-section-2 .u-image-3:not([data-block-selected]):not([data-cell-selected]),
+.u-section-2 .u-image-3:not([data-block-selected]):not([data-cell-selected]):before,
+.u-section-2 .u-image-3:not([data-block-selected]):not([data-cell-selected]) > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-2 .u-image-3.u-image-3.u-image-3:hover:not([data-block-selected]):not([data-cell-selected]) {
+  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2) !important;
+}
+
+.u-section-2 .u-image-3.u-image-3.u-image-3.hover {
   box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2) !important;
 }
 
@@ -653,6 +665,20 @@
 }
 
 .u-section-2 .u-list-item-2.u-list-item-2.u-list-item-2.hover {
+  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2) !important;
+}
+
+.u-section-2 .u-list-item-3,
+.u-section-2 .u-list-item-3:before,
+.u-section-2 .u-list-item-3 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-2 .u-list-item-3.u-list-item-3.u-list-item-3:hover {
+  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2) !important;
+}
+
+.u-section-2 .u-list-item-3.u-list-item-3.u-list-item-3.hover {
   box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2) !important;
 } .u-section-3 {
   background-image: none;
