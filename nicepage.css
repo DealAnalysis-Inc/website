@@ -50477,6 +50477,10 @@ a.u-link.u-text-hover-color-var:hover {
 
 
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 87px;
+  }
+
   .u-header .u-image-1 {
     width: 275px;
     height: 69px;
