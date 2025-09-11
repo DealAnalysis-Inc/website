@@ -50517,7 +50517,7 @@ a.u-link.u-text-hover-color-var:hover {
 .u-footer .u-image-1 {
   width: 292px;
   height: 73px;
-  margin: 0 -29px 0 auto;
+  margin: 0 -14px 0 auto;
 }
 
 .u-footer .u-logo-image-1 {
@@ -50529,14 +50529,14 @@ a.u-link.u-text-hover-color-var:hover {
   font-family: Inter;
   font-size: 0.875rem;
   font-weight: 300;
-  margin: 8px 1px 0 auto;
+  margin: 8px auto 0 0;
 }
 
 .u-footer .u-text-2 {
   font-family: Inter;
   font-size: 0.75rem;
   font-weight: 200;
-  margin: 1px auto 0 3px;
+  margin: 1px auto 0 0;
 }
 
 .u-footer .u-layout-cell-2 {
@@ -50694,15 +50694,11 @@ a.u-link.u-text-hover-color-var:hover {
   }
 
   .u-footer .u-text-1 {
-    width: auto;
-    margin-right: -47px;
-    margin-left: 2px;
+    margin-right: 0;
   }
 
   .u-footer .u-text-2 {
-    width: auto;
     margin-right: 137px;
-    margin-left: 5px;
   }
 
   .u-footer .u-layout-cell-2 {
@@ -50773,12 +50769,12 @@ a.u-link.u-text-hover-color-var:hover {
   .u-footer .u-text-1 {
     width: 158px;
     margin-right: 1px;
-    margin-left: 0;
   }
 
   .u-footer .u-text-2 {
     margin-right: 104px;
     margin-left: 5px;
+    width: auto;
   }
 
   .u-footer .u-container-layout-2 {
@@ -50848,7 +50844,10 @@ a.u-link.u-text-hover-color-var:hover {
   .u-footer .u-text-1 {
     width: auto;
     margin-top: 0;
-    margin-left: 1px;
+  }
+
+  .u-footer .u-text-2 {
+    margin-left: 0;
   }
 
   .u-footer .u-layout-cell-2 {
