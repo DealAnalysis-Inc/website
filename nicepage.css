@@ -49952,6 +49952,10 @@ a.u-link.u-text-hover-color-var:hover {
         
         
         
+        
+        
+        
+        
         }
 
         /** common-rules **/
@@ -50097,6 +50101,13 @@ a.u-link.u-text-hover-color-var:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         line-height: 1.6;
+        }
+        .u-body
+        {
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         }
         .u-input
         {
