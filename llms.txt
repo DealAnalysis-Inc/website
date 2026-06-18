@@ -1,0 +1,34 @@
+# DealAnalysis
+
+> Document intelligence with a modeling engine and memory, built for private capital. DealAnalysis reads any private-capital document — a PPM, an LPA, a credit agreement, a model — turns its terms into provable figures on a deterministic engine, and benchmarks them against a growing memory of the market, so an analyst can model and find the leverage: what is market, what is off-market, and what is missing. Reading a document is the commodity; the engine and the memory are the company.
+
+DealAnalysis, Inc. is a Delaware C-corporation headquartered in Dallas, Texas, with research and development in London. It serves both sides of the private-capital table: GP-side (managers and deal teams) and LP-side (allocators, family offices, foundations and their advisors). The platform is built for institutional procurement and for SOC 2 Type II certification. Every figure it produces is labeled as observed, estimated with a confidence range, or computed — and a person, not the platform, makes the decision.
+
+## What it does
+- Read the logic: read the conditions, rights and obligations a deal encodes, not only the figures on the page.
+- Model it: provable figures, computed and traceable to the term they came from, reproducible every time.
+- Benchmark it: every term and projection located against a growing memory of the market — what is standard, off-market, or missing.
+- Find the leverage: forecasts shown as ranges with the confidence attached; off-market terms, gaps and negotiating room surfaced.
+
+## Who it is for
+- GP-side: private-equity, venture and growth managers and their deal teams.
+- LP-side: allocators, family offices, multi-family offices, foundations, endowments and their advisors.
+
+## Scope
+One engine spans the private-capital instrument set across three analytical tiers: direct deals, private credit, GP stakes and co-investments; structured products, secondaries and continuation vehicles; SMAs, primary funds, fund-of-funds and platform wrappers — with side letters modeled as base terms plus their overlay.
+
+## Insights
+- Deterministic document analysis vs an LLM: https://www.dealanalysis.com/insights/deterministic-analysis-vs-llm/
+- The four limitations of private-capital data: https://www.dealanalysis.com/insights/four-limitations-private-capital-data/
+- GP-side vs LP-side: one engine, both sides of the table: https://www.dealanalysis.com/insights/gp-side-vs-lp-side/
+- What "built for SOC 2 Type II" means for institutional buyers: https://www.dealanalysis.com/insights/built-for-soc-2-type-ii/
+- Provenance and the decision record: https://www.dealanalysis.com/insights/provenance-and-the-decision-record/
+
+## Pages
+- Home: https://www.dealanalysis.com/
+- Privacy Policy: https://www.dealanalysis.com/Legals/Privacy-Policy.html
+- Terms of Service: https://www.dealanalysis.com/Legals/Terms-of-Service.html
+
+## Contact
+- Email: info@dealanalysis.com
+- To see it: request an NDA-gated demo on your own documents, or the investor deck (under NDA), via the contact form on the home page.

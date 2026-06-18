@@ -1,0 +1,65 @@
+/* DealAnalysis — Legal pages stylesheet */
+:root{
+  --navy:#0F2B5B; --navy-deep:#0A1E42; --gold:#F59E0B; --gold-deep:#D97706;
+  --ink:#16243D; --body:#33415A; --muted:#64748B; --slate:#475569;
+  --border:#CBD5E1; --hairline:#E2E8F0; --bg:#F7F9FC; --card:#FFFFFF;
+  --sans:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--body);font-family:var(--sans);
+  font-size:16px;line-height:1.72;-webkit-font-smoothing:antialiased}
+
+/* header */
+.lh{position:sticky;top:0;z-index:20;background:rgba(247,249,252,.94);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--hairline)}
+.lh-in{max-width:980px;margin:0 auto;padding:0 28px;height:66px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.lh-brand img{height:30px;width:auto;display:block}
+.lh-back{font-size:13.5px;font-weight:600;color:var(--navy-deep);text-decoration:none;white-space:nowrap}
+.lh-back:hover{color:var(--gold-deep)}
+
+/* document body */
+.ldoc{max-width:800px;margin:0 auto;padding:54px 28px 24px}
+.lkicker{font-size:11px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-deep);margin:0 0 12px}
+.ldoc h1{font-size:clamp(28px,4vw,38px);line-height:1.12;color:var(--navy);font-weight:800;letter-spacing:-.01em;margin:0 0 14px}
+.ldoc h1::after{content:"";display:block;width:64px;height:4px;background:var(--gold);margin-top:18px;border-radius:2px}
+.lmeta{font-size:13.5px;color:var(--muted);margin:0 0 8px}
+.lintro{font-size:17px;color:var(--ink);margin:22px 0 4px}
+.ldoc h2{font-size:20px;color:var(--navy);font-weight:700;margin:40px 0 10px;padding-top:6px}
+.ldoc h3{font-size:16px;color:var(--navy-deep);font-weight:700;margin:24px 0 6px}
+.ldoc p{margin:0 0 14px}
+.ldoc ul,.ldoc ol{margin:0 0 16px;padding-left:22px}
+.ldoc li{margin:0 0 8px}
+.ldoc a{color:var(--gold-deep);font-weight:600;text-decoration:none}
+.ldoc a:hover{text-decoration:underline}
+.ldoc strong{color:var(--ink)}
+.ldoc h2 .n{color:var(--gold-deep);font-variant-numeric:tabular-nums;margin-right:8px}
+
+/* callout / note box */
+.lnote{background:#fff;border:1px solid var(--border);border-left:4px solid var(--gold);
+  padding:16px 20px;border-radius:6px;margin:22px 0;font-size:14.5px;color:var(--slate)}
+.lnote b{color:var(--ink)}
+
+/* contact card */
+.lcontact{background:#fff;border:1px solid var(--border);border-top:4px solid var(--navy);
+  padding:22px 24px;border-radius:6px;margin:26px 0 8px;font-size:15px}
+.lcontact b{color:var(--navy)}
+
+/* tables (cookie policy) */
+.ltable{width:100%;border-collapse:collapse;margin:18px 0 24px;font-size:14px}
+.ltable th,.ltable td{border:1px solid var(--border);padding:11px 13px;text-align:left;vertical-align:top}
+.ltable th{background:#EEF3FA;color:var(--navy);font-weight:700;font-size:12.5px;letter-spacing:.02em}
+.ltable td code{font-family:'IBM Plex Mono',ui-monospace,Consolas,monospace;font-size:12.5px;color:var(--navy-deep)}
+.ltable tr:nth-child(even) td{background:#FAFBFD}
+
+/* footer */
+.lf{background:var(--navy-deep);color:#8FA6CC;margin-top:56px;padding:44px 0 30px;font-size:13.5px}
+.lf-in{max-width:980px;margin:0 auto;padding:0 28px}
+.lf-links{display:flex;flex-wrap:wrap;gap:8px 22px;margin-bottom:20px}
+.lf-links a{color:#C9D6EC;text-decoration:none;font-weight:600}
+.lf-links a:hover{color:var(--gold)}
+.lf-addr{line-height:1.7}
+.lf-addr b{color:#fff}
+.lf-base{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);
+  display:flex;flex-wrap:wrap;gap:6px 24px;justify-content:space-between;color:#6E84AC;font-size:12.5px}
+@media(max-width:560px){.ldoc{padding-top:40px}.lh-in{height:60px}}
