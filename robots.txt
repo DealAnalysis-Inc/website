@@ -1,0 +1,46 @@
+# robots.txt — https://www.dealanalysis.com/
+# Posture: open to all well-behaved crawlers, including AI search and AI training.
+# Public marketing content only; confidential materials are NDA-gated and not on this site.
+
+User-agent: *
+Allow: /
+
+# ---- AI search & retrieval crawlers (eligibility for citations in AI answers) ----
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# ---- AI training crawlers (allowed: seeds model knowledge of the category and brand) ----
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://www.dealanalysis.com/sitemap.xml
