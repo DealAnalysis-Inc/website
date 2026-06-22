@@ -10,4 +10,16 @@ document.addEventListener('DOMContentLoaded', function () {
     entries.forEach(function (e) { e.target.classList.toggle('in', e.isIntersecting); });
   }, { threshold: 0 });
   rv.forEach(function (el) { io.observe(el); });
+
+  // mobile menu toggle
+  var toggle = document.getElementById('menuToggle');
+  var links = document.getElementById('navLinks');
+  if (toggle && links) {
+    toggle.addEventListener('click', function () {
+      toggle.setAttribute('aria-expanded', links.classList.toggle('open'));
+    });
+    links.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () { links.classList.remove('open'); });
+    });
+  }
 });
