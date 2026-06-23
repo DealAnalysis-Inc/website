@@ -64,8 +64,8 @@ header{position:sticky;top:0;z-index:60;background:rgba(247,249,252,.92);backdro
 .brand{display:flex;align-items:center;gap:13px}
 .brand svg{display:block}
 .brand .lockup{height:42px;width:auto;display:block}
-.foot-logo{display:inline-flex;margin-bottom:18px}
-.foot-logo .lockup{height:40px;width:auto;display:block}
+.foot-logo{display:block;margin-bottom:18px}
+.foot-logo .lockup{height:auto;width:auto;max-width:100%;max-height:40px;display:block}
 .nav-links{display:flex;gap:22px;align-items:center}
 .nav-links a{white-space:nowrap;font-size:14px;font-weight:600;color:var(--navy-ink);letter-spacing:.01em}
 .nav-links a:hover{color:var(--gold-deep)}
@@ -412,6 +412,7 @@ footer li{margin-bottom:9px}
   .dims{grid-template-columns:1fr}
   .now-grid{grid-template-columns:1fr}
   .foot-grid{grid-template-columns:1fr 1fr}
+  .foot-brand{grid-column:1/-1}
 }
 @media(max-width:1024px){
   .nav-links{display:none;position:absolute;top:72px;left:0;right:0;background:#fff;flex-direction:column;align-items:flex-start;padding:22px 28px;gap:18px;border-bottom:1px solid var(--border)}

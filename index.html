@@ -297,8 +297,8 @@ header{position:sticky;top:0;z-index:60;background:rgba(247,249,252,.92);backdro
 .brand{display:flex;align-items:center;gap:13px}
 .brand svg{display:block}
 .brand .lockup{height:42px;width:auto;display:block}
-.foot-logo{display:inline-flex;margin-bottom:18px}
-.foot-logo .lockup{height:40px;width:auto;display:block}
+.foot-logo{display:block;margin-bottom:18px}
+.foot-logo .lockup{height:auto;width:auto;max-width:100%;max-height:40px;display:block}
 .nav-links{display:flex;gap:22px;align-items:center}
 .nav-links a{white-space:nowrap;font-size:14px;font-weight:600;color:var(--navy-ink);letter-spacing:.01em}
 .nav-links a:hover{color:var(--gold-deep)}
@@ -645,6 +645,7 @@ footer li{margin-bottom:9px}
   .dims{grid-template-columns:1fr}
   .now-grid{grid-template-columns:1fr}
   .foot-grid{grid-template-columns:1fr 1fr}
+  .foot-brand{grid-column:1/-1}
 }
 @media(max-width:1024px){
   .nav-links{display:none;position:absolute;top:72px;left:0;right:0;background:#fff;flex-direction:column;align-items:flex-start;padding:22px 28px;gap:18px;border-bottom:1px solid var(--border)}
@@ -706,6 +707,16 @@ footer li{margin-bottom:9px}
 /* nav: Insights is a separate page — set it apart */
 .nav-sep{flex:0 0 auto;width:1px;height:18px;background:var(--hairline);align-self:center}
 @media(max-width:1024px){.nav-sep{display:none}#navLinks a[href="/insights/"]{border-top:1px solid var(--border);width:100%;margin-top:6px;padding-top:14px}}
+
+/* Who it's for — ecosystem supporting tier (neutral, no palette colour) */
+.eco-band{margin-top:34px;padding-top:32px;border-top:1px solid var(--border)}
+.eco-head{margin-bottom:20px}
+.eco-kick{display:block;font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:700;color:var(--slate);margin:0 0 8px}
+.eco-sub{font-family:var(--sans);font-size:17px;font-weight:600;color:var(--ink);margin:0;max-width:64ch}
+.eco-points{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.eco-points li{position:relative;padding-left:20px;font-size:14.5px;line-height:1.55;color:var(--body)}
+.eco-points li::before{content:"";position:absolute;left:0;top:7px;width:8px;height:8px;background:var(--slate)}
+@media(max-width:760px){.eco-points{grid-template-columns:1fr;gap:0}.eco-points li{padding:11px 0 11px 20px;border-top:1px solid var(--hairline)}.eco-points li::before{top:18px}}
 </style>
 </head>
 <body>
@@ -854,22 +865,35 @@ footer li{margin-bottom:9px}
     <div class="cols-2 rv">
       <div class="card burgundy">
         <h3 class="aud">GP-side</h3>
-        <p class="aud-kicker">Managers and their deal teams</p>
+        <p class="aud-kicker">Managers and their deal teams &middot; private equity, growth, credit</p>
         <ul class="plist">
           <li>Read an incoming deal in full and model the economics before you&rsquo;re at the table.</li>
-          <li>See where the negotiating leverage is — what&rsquo;s off-market in your favor, what you&rsquo;re missing, what to ask for.</li>
-          <li>Carry the same model through the portfolio.</li>
+          <li>See where the leverage sits — what&rsquo;s off-market in your favor, what you&rsquo;re missing, what to ask for.</li>
+          <li>Test every covenant against the agreement itself, not a tracker someone keyed by hand — and catch a breach before it becomes a problem.</li>
+          <li>Carry one model across the portfolio, with a record of what was known at each decision.</li>
         </ul>
       </div>
       <div class="card teal">
         <h3 class="aud">LP-side</h3>
-        <p class="aud-kicker">Allocators · family offices · foundations · their advisors</p>
+        <p class="aud-kicker">Allocators and their advisors &middot; RIAs, family offices, OCIOs, fund-of-funds</p>
         <ul class="plist">
           <li>Diligence a fund or a direct commitment on provable numbers, not the GP&rsquo;s summary.</li>
           <li>Benchmark the terms against what your peers are getting.</li>
-          <li>Monitor what you hold on a model that updates — not a PDF that ages.</li>
+          <li>See through a fund to the funds and companies beneath it — what&rsquo;s disclosed, what&rsquo;s inferred, what&rsquo;s missing.</li>
+          <li>Monitor what you hold on a model that updates, not a PDF that ages.</li>
         </ul>
       </div>
+    </div>
+    <div class="eco-band rv">
+      <div class="eco-head">
+        <span class="eco-kick">Around the deal</span>
+        <p class="eco-sub">Law firms, fund administrators, and the advisors a deal runs through.</p>
+      </div>
+      <ul class="eco-points">
+        <li>Read every agreement for logic, not just language — what each term does to the economics, what&rsquo;s off-market, what&rsquo;s missing.</li>
+        <li>Give clients the same fast, consistent read on a fund&rsquo;s terms every time.</li>
+        <li>Keep a traceable, as-of-the-date record behind every position, so the evidence is there when the question lands.</li>
+      </ul>
     </div>
   </div>
 </section>
@@ -1046,7 +1070,7 @@ footer li{margin-bottom:9px}
       </details>
       <details class="faq-item">
         <summary>Who is DealAnalysis for?</summary>
-        <div class="faq-a"><p>Both sides of the private-capital table. On the GP-side, managers and deal teams read incoming deals, model the economics, and find the leverage before the negotiation. On the LP-side, allocators, family offices, foundations and their advisors diligence funds and direct commitments on provable numbers, and monitor what they hold on a model that updates rather than a PDF that ages.</p></div>
+        <div class="faq-a"><p>Both sides of the private-capital table, and the ecosystem around it: managers and their deal teams on the GP-side; allocators, family offices and their advisors on the LP-side; and the law firms, fund administrators and advisors a deal runs through. One engine serves all three, applied to each one&rsquo;s workflow.</p></div>
       </details>
       <details class="faq-item">
         <summary>What deal types and documents does DealAnalysis cover?</summary>
